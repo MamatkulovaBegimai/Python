@@ -77,3 +77,4 @@
 # adilet = {'name' : 'Adilet', 'age' : 17, 'color' : 'White'}
 # adilet['adress'] = 'Западный Анар'
 # print(adilet)
+  

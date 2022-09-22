@@ -754,6 +754,7 @@
 #         print(bukva,'znak')
 #     s = s[1:]    
 
+# ФУНКИИ
      
 # def hello():
 #     print('Hello, World')  
@@ -897,21 +898,49 @@
 #     a = input()
 # getinput()    
 
-# def testinput(a):
-#     if testinput == float():
-#         print(True)
-#     elif testinput == str():
-#         print(False)
-# testinput(4)            
-
-def add(num1, num2):
-    print(num1 + num2)    
+# def add(num1, num2):
+#     print(num1 + num2)    
     
-def sub(num1, num2):
-    print(num1 - num2)
+# def sub(num1, num2):
+#     print(num1 - num2)
     
-it = 'IT-RUN'
+# it = 'IT-RUN'
 
-def students(*names):
-    print(names)
-        
+# def students(*names):
+#     print(names)
+  
+# def num():
+#     three = []
+#     five = []
+#     three_five = []
+#     for i in range(1, 100):
+#         if i % 3 == 0:
+#             three.append(i)
+#             print("Делятся на 3",i)
+#         if i % 5 == 0:
+#             five.append(i)
+#             print("Делятся на 5",i)
+#         if i % 3 == 0 and i %5 ==0:
+#             three_five.append(i)
+#             print("Делятся обоим",i)        
+#     print(three)        
+#     print(five)        
+#     print(three_five)        
+# num()    
+ 
+ 
+ 
+# №2            
+# def num(x, y):
+#     try:
+#         a = x / y
+#         print(a)
+#     except ZeroDivisionError: 
+#         print(0)  
+# num(10, 2)    
+
+# №3
+def num(a):
+    for i in range(a):
+        print(i)
+num(6)                

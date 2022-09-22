@@ -17,3 +17,6 @@
 # students("Begimai", "Aika")
 #  импортировать всё содержимое модуля сразу 
 
+# from dom10 import func
+# func("Begimai", 100)
+
